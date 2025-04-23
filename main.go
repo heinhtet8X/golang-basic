@@ -5,5 +5,8 @@ import "fmt"
 func main() {
 	x := getBill("Hein")
 
-	fmt.Print(x);
+	name := x.getName()
+
+	fmt.Print(x, "\n")
+	fmt.Print(name, "\n")
 }

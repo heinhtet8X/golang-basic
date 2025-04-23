@@ -27,3 +27,7 @@ func getBill(name string) bill {
 
 	return b
 }
+
+func (bill bill) getName() string {
+	return bill.name
+}
