@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	// x := getBill("Hein")
+	x := getBill("Hein")
 
-	// name := x.getName()
+	name, index := x.getName()
 
-	// fmt.Print(x, "\n")
-	// fmt.Print(name, "\n")
+	fmt.Print(x, "\n")
+	fmt.Print(index, name, "\n")
 
 	fmt.Println("here two")
 

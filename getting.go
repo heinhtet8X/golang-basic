@@ -1,14 +1,14 @@
 package main
 
-type bill struct {
+type Bill struct {
 	name  string
 	items map[string]float64
 	tip   float64
 	news  []map[string]any
 }
 
-func getBill(name string) bill {
-	b := bill{
+func getBill(name string) Bill {
+	b := Bill{
 		name: name,
 		items: map[string]float64{
 			"ages":   22,
@@ -28,6 +28,6 @@ func getBill(name string) bill {
 	return b
 }
 
-// func (bill bill) getName() {
-	// return bill.name
-// }
+func (b *Bill) getName() (string, float32) {
+	return b.name, 30
+}
