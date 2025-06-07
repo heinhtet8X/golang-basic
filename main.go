@@ -3,10 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	x := getBill("Hein")
+	// x := getBill("Hein")
 
-	name := x.getName()
+	// name := x.getName()
 
-	fmt.Print(x, "\n")
-	fmt.Print(name, "\n")
+	// fmt.Print(x, "\n")
+	// fmt.Print(name, "\n")
+
+	fmt.Println("here two")
+
+	{
+		fmt.Println("here one")
+		defer fmt.Println("Done...")
+	}
 }
