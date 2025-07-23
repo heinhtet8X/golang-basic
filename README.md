@@ -114,3 +114,5 @@ Go ရဲ့ "internal" package rule ကြောင့် ဒီထဲက code 
 ---
 
 ဒီ Folder Structure က Project ရဲ့ maintainability, scalability, modularity တွေကို အထောက်အကူပြုနိုင်ပါတယ်။
+
+#cpy from gemini ai
